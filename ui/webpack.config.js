@@ -7,7 +7,7 @@ module.exports = withModuleFederationPlugin({
   name: "inventory",
 
   exposes: {
-    "./dashboard": "./projects/inventory/src/app/dashboard/dashboard.module.ts",
+    "./dashboard": "./projects/inventory/ui/src/app/dashboard/dashboard.module.ts",
   },
 
   shared: {
